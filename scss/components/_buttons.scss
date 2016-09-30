@@ -1,0 +1,62 @@
+.sort-drop-down {
+  display: none;
+  background: $header-color;
+  position: relative;
+  width: 100px;
+  left: 100px;
+}
+
+.prev {
+  text-align: left;
+
+  padding: .75em;
+  
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+  .prev-icon {
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    height: 1em;
+    width: 1em;
+    background: url('../images/prev-btn.png');
+    background-size: cover;
+  }
+}
+
+.close {
+  text-align: center;
+
+  padding: .75em;
+  
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+  .x {
+    display: inline-block;
+    position: relative;
+    top: 2px;
+
+    height: 1em;
+    width: 1em;
+    background: url('../images/close-btn.png');
+    background-size: cover;
+  }
+}
+
+.next {
+  text-align: right;
+
+  padding: .75em;
+  
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+  .next-icon {
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    height: 1em;
+    width: 1em;
+    background: url('../images/next-btn.png');
+    background-size: cover;
+  }
+}

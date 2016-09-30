@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+	<link href="js/jqueryUI/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+	<link href="js/jqueryUI/jquery-ui.structure.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/application.css" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800' rel='stylesheet' type='text/css'>
+	<title>Media Channel API</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1 class="logo">Media Channel App</h1>
+    </nav>
+  </header>
+  <div class="wrapper">
+		<div id="spotify-albums" class="container">
+			<h2 class="heading-2">Albums</h2>
+			<div class="sort-order">
+				<p class="sort-p">Sort by name <span class="sort-type-albums"></span><span class="arrow"></span></p>
+				<div class="sort-drop-down">
+					<p class="a-to-z sort-albums">A to Z</p>
+					<p class="z-to-a sort-albums">Z to A</p>
+				</div>
+			</div>
+			<div id="albums-container" class="thumbnail-container">
+			</div>
+		</div>
+		<div id="omdb-movies" class="container">
+			<h2 class="heading-2">Movies</h2>
+			<div class="sort-order">
+				<p class="sort-p">Sort by name <span class="sort-type-movies"></span><span class="arrow"></span></p>
+				<div class="sort-drop-down">
+					<p class="a-to-z sort-movies">A to Z</p>
+					<p class="z-to-a sort-movies">Z to A</p>
+				</div>
+			</div>
+			<div id="movies-container" class="thumbnail-container">
+			</div>
+		</div>
+  </div>
+	<div class="lightbox-container">
+		<div class="lightbox container">
+			<div class="controls"></div>
+		</div>
+	</div>
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/jqueryUI/jquery-ui.min.js" type="text/javascript"></script>
+	<script src="js/variables.js" type="text/javascript"></script>
+	<script src="js/application.js" type="text/javascript"></script>
+	<script src="js/sort.js" type="text/javascript"></script>
+	<script src="js/lightbox.js" type="text/javascript"></script>
+	<script src="js/ajax.js" type="text/javascript"></script>
+</body>
+</html>

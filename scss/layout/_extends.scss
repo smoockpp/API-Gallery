@@ -1,0 +1,38 @@
+// Center text
+%centered {
+ text-align: center;
+}
+
+// border
+%full-border {
+  border-top: 1px solid $color-border-light;
+}
+
+// Clearfix
+%clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+// margin 0 auto;
+%margin-z-a {
+  margin: 0 auto;
+}
+
+// margin 30 auto;
+
+%margin-3-a {
+  margin: 30px auto;
+}
+
+// Transitions
+
+%transition-all {
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
