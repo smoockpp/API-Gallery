@@ -11,7 +11,7 @@ var spotifyUrls = {
   theHuntingParty : "3XB2yloP7l00tEUmaODtVi",
   aThousandSuns :"4fy0SXW5G8evBCo2A3kn02"
 };
-var omdb = 'http://www.omdbapi.com/?i=';
+var omdb = 'https://www.omdbapi.com/?i=';
 var omdbUrls = {
   wrongTurn : "tt0295700",
   transformers : "tt0418279",
