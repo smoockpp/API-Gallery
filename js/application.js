@@ -57,7 +57,7 @@ var moviesThumbnails = function(array) {
 
 $(document).ready(function() {
   dataRequest(spotifyUrls, albums, spotify);
-  dataRequest(omdbUrls, movies, omdb);
+//   dataRequest(omdbUrls, movies, omdb);
   lightboxUI.prepareLightbox();
   lightboxUI.close.click(function() {
     lightboxUI.remove();
